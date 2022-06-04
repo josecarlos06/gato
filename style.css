@@ -1,0 +1,114 @@
+#cell1{
+
+    border-right: solid 1px black;
+    border-bottom: solid 1px black;
+}
+
+#cell2{
+  border-left: solid 1px black;
+    border-right: solid 1px black;
+    border-bottom: solid 1px black;
+}
+
+#cell3{
+  border-left: solid 1px black;
+
+    border-bottom: solid 1px black;
+}
+
+#cell4{
+  border-top:  solid 1px black;
+      border-right: solid 1px black;
+    border-bottom: solid 1px black;
+}
+
+#cell5{
+  border-top:  solid 1px black;
+      border-right: solid 1px black;
+    border-bottom: solid 1px black;
+    border-left: solid 1px black;
+
+}
+
+#cell6{
+  border-top:  solid 1px black;
+
+    border-bottom: solid 1px black;
+    border-left: solid 1px black;
+
+}
+
+#cell7{
+  border-top:  solid 1px black;
+      border-right: solid 1px black;
+
+
+}
+
+#cell8{
+  border-top:  solid 1px black;
+      border-right: solid 1px black;
+
+    border-left: solid 1px black;
+
+}
+
+#cell9{
+  border-top:  solid 1px black;
+
+    border-left: solid 1px black;
+
+}
+
+td{
+  width: 100px;
+  height: 100px;
+
+}
+
+.rojo{
+  background-color: rgb(255,0,0);
+  pointer-events: none;
+  -webkit-animation: fadein .5s;
+}
+
+.azul{
+  background-color: rgb(0,0,255);
+  pointer-events: none;
+  -webkit-animation: fadein .5s;
+  -moz-animation: fadein .5s; /* Firefox < 16 */
+  -ms-animation: fadein .5s; /* Internet Explorer */
+
+}
+
+@keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+@-moz-keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+@-ms-keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+
+
+.noMoreClicks{
+  pointer-events: none;
+}
+
+table{
+  position: absolute;
+    left: 40%;
+    top: 40%;
+}
+
+.bye{
+  display: none;
+}
+
+.hello{
+  display:block;
+}

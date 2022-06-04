@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="toggleBtn.css">
+    <meta charset="utf-8">
+    <title></title>
+  </head>
+  <body>
+<h1>Simple Gato</h1>
+<h2>Jugar con la maquina</h2>
+    <table id = "table" class="bye">
+       <tbody>
+         <tr>
+           <td id="cell1" onclick="turnAssign('cell1')"></td>
+            <td id="cell2" onclick="turnAssign('cell2')"></td>
+             <td id="cell3" onclick="turnAssign('cell3')"></td>
+         </tr>
+         <tr>
+           <td id="cell4" onclick="turnAssign('cell4')"></td>
+            <td id="cell5" onclick="turnAssign('cell5')"></td>
+             <td id="cell6" onclick="turnAssign('cell6')"></td>
+         </tr>
+         <tr>
+           <td id="cell7" onclick="turnAssign('cell7')"></td>
+            <td id="cell8" onclick="turnAssign('cell8')"></td>
+             <td id="cell9" onclick="turnAssign('cell9')"></td>
+         </tr>
+       </tbody>
+    </table>
+    <div class="" id="rad">
+
+
+    <label class="switch">
+
+      <input type="checkbox" id="maq" onclick="contraMaq(this)">
+      <span class="slider round"></span>
+    </label>
+      </div>
+    <button type="button" name="button" onclick="comenzar(this)"><h2>Comenzar a jugar</h2></button>
+        <script src="js.js">  </script>
+  </body>
+</html>
